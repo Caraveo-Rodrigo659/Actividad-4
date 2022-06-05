@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        select{
+            width: 200px;
+            margin-left: 230px;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="formulario">
+          <form>
+            <label class = "lab" for="flastname">Apellidos:</label>
+            <input class="controls" type="text" name="flastname" placeholder="Apellido" /><br />
+            <label class = "lab" for="name">Nombre:</label>
+            <input class="controls" type="text" name="fname" placeholder="Nombre" /><br />
+            <label class = "lab" for="date">Fecha de nacimiento</label>
+            <input class="controls" type="datetime-local" name="date" id="" /><br />
+            <label class = "lab" for="country">Ciudad de nacimiento</label>
+            <input class="controls" type="text" name="country" placeholder="Ciudad de nacimiento"/><br />
+            <label class = "lab" for="countries">País de nacimiento:</label>
+            <select id="countries" name="countries"></select><br>
+            <label class = "lab" for="nationality">Nacionalidad:</label>
+            <select id="countries1" name="countries1"></select><br>
+            <label class = "lab" for="pasaport">Numero de pasaporte:</label>
+            <input class="controls" type="number" name="pasaport" id=""><br>
+            <label class = "lab" for="date pasaport">Fecha de emisión del pasaporte</label>
+            <input class="controls" type="datetime-local" name="date pasaport" id=""><br>
+            <label class = "lab" for="date pasaport">Fecha de emisión del pasaporte</label>
+            <input class="controls" type="datetime-local" name="date pasaport" id=""><br>
+    
+            <input type="submit" name="submit" id="" style="margin:10px; margin-left: 500px; ">
+            <script src="js/app.js"></script>
+            <script src="/js/nation.js"></script>
+      </div>
+      <a class="boton" href="../index.html">Click para regresar a la pagina principal</a>
+    </div>
+  </body>
+</html>

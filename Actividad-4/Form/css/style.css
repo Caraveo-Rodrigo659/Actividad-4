@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario {
+    width: 650px;
+    height: 350px;
+    background: #f0f3f4;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.lab {
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    line-height: 1.2em;
+    margin-left: 20px;
+    margin-bottom: -5px;
+    grid-template-columns: 500px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    width: 380px;
+    margin: 5px;
+    margin: 3px;
+    margin-left: 230px;
+    margin-bottom: -20px;
+}
+
+
+/*
+.controls{
+    width: 300px;
+    background:  #ecf0f1 ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid #ecf0f1;
+    font-family: 'calibri';
+    font-size: 12px;
+    padding: 2px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*/

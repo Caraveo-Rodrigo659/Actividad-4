@@ -1,0 +1,65 @@
+.cabezera {
+    background-color:  #154360 ;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+
+.tittle {
+    color:  whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    border-radius: 50px;
+    background-color: rgba(138, 175, 180, 0.7);
+    height: auto;
+}
+
+.galery {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.image {
+    width: 250px;
+    margin-left: 123px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: rgba(171, 168, 164, 0.7);
+    border-radius: 50px;
+}
+
+
+.image img {
+    width: 220px;
+    border-radius: 100%;
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+.tittle4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 2, 12);
+    font-size: 18px ;
+}
+
+.imc {
+    text-align: center;
+}
+
+.boton{
+    color: #154360;
+    padding: 40px;
+}
+
